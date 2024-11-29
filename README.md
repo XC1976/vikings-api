@@ -18,7 +18,7 @@ Since the PHP pages are often independent of each other in term of development, 
 The deletion behavior was done simply by specifying this SQL constrait : `FOREIGN KEY(weaponID) REFERENCES Weapon(id) ON DELETE SET NULL`
 
 # Known problems
-All the verifications asked by the guidelines and some additional one were written (e.g. error message for SQL Update where no values are changed). But not all cases are convered.
+All the verifications asked by the guidelines and some additional one were written (e.g. error message for SQL Update where no values are changed). But not all cases are covered.
 
 - It was asked to name "weapon" but it is here often named as "Weapon" such as /api/Weapon/
 - In certain cases, the error handling will not work if the body is completely empty since there is no error handling on $data = getBody() itself. In this case, the $_GET['id'] and the body json parameters error handling will not work and it will simply fail without an error message.
