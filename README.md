@@ -22,4 +22,4 @@ All the verifications asked by the guidelines and some additional one were writt
 
 - It was asked to name "weapon" but it is here often named as "Weapon" such as /api/Weapon/
 - In certain cases, the error handling will not work if the body is completely empty since there is no error handling on $data = getBody() itself. In this case, the $_GET['id'] and the body json parameters error handling will not work and it will simply fail without an error message.
-- GET /viking/findByWeapon.php?id=<weaponId> does not have a lot of error handling if at all. It only works as is.
+- `GET /viking/findByWeapon.php?id=<weaponId>` does not have a lot of error handling if at all. It only works as is.
