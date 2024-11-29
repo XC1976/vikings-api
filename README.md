@@ -3,7 +3,7 @@
 - DE LA GENIERE Clement
 - HADDAD Thinina
 
-The main tasks and the bonuses are included. The way API calls have to be formed can be easily deduced using the postman export, it is using $_GET['id'] AND/OR body json parameters.
+The main tasks and the bonuses are included. The way API calls have to be formed can be easily deduced using the postman export in the repository, it is using $_GET['id'] AND/OR body json parameters.
 
 The vikings.sql is not a PHPMyAdmin export but a manually typed .sql intended to be ran as is.
 
